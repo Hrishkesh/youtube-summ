@@ -1,3 +1,6 @@
+## Forked from https://github.com/DevRico003/youtube_summarizer
+## Need to update Readme as this repo uses the FASTAPI and UIPath to summarize the content
+
 # YouTube Video Summarizer
 
 This is a Python application that allows you to summarize the content of a YouTube video using OpenAI's GPT-3.5 language model and Langchain. The application get the transcription provided by YouTube, chunks the Transcription with Langchain and generates a summary in the language of the youtube video.
