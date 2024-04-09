@@ -16,7 +16,6 @@ This is a Python application that allows you to summarize the content of a YouTu
 Before you begin, ensure you have installed the following:
 
 - Python 3.6 or above
-- [Streamlit](https://streamlit.io/)
 - [PyTube](https://pytube.io/en/latest/)
 - [OpenAI](https://beta.openai.com/docs/developer-quickstart/)
 - [python-dotenv](https://pypi.org/project/python-dotenv/)
@@ -45,21 +44,6 @@ OPENAI_API_KEY=your_openai_api_key
 
 ## Usage
 
-1. Run the script:
-```bash
-streamlit run app.py
-```
-2. Once the web application starts, open it in your web browser.
-
-3. Enter the link of the YouTube video you want to summarize in the provided text input.
-
-4. Click the "Start" button to begin the summarization process.
-
-   - The application will get the Transcription from Youtube
-   - It will then use GPT-3.5 and Langchain to generate a summary.
-   - The generated summary will be displayed on the web page in the language of the youtube video.
-
-5. The summary will be presented in the form of an informative and factual overview of the video's content, including bullet points if possible. It will also include an introduction and conclusion phrase.
 
 ## Disclaimer
 
