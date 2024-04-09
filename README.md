@@ -1,4 +1,4 @@
-## Forked from https://github.com/DevRico003/youtube_summarizer
+
 ## Need to update Readme as this repo uses the FASTAPI and UIPath to summarize the content
 
 # YouTube Video Summarizer
